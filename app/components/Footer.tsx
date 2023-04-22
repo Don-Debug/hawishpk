@@ -21,7 +21,8 @@ export default function Footer() {
             <BsTelephone size={25} /> +355692931309
           </Link>
           <Link
-            href={`/`}
+            target="blank"
+            href={`https://www.google.com/maps/place/Ha.wi+assistance/@40.4620965,19.4828968,3a,82.6y,86.15h,80.69t/data=!3m6!1e1!3m4!1sj1Bfx7XlCcqF8mrtuHWtSA!2e0!7i13312!8i6656!4m11!1m2!2m1!1shawi+shpk+vlore!3m7!1s0x134533b6a516fd7f:0x66b66352f000eb6e!8m2!3d40.4619741!4d19.4832028!10e5!15sCg9oYXdpIHNocGsgdmxvcmVaESIPaGF3aSBzaHBrIHZsb3JlkgERZWxlY3Ryb25pY3Nfc3RvcmXgAQA!16s%2Fg%2F11hf6vfmq0`}
             className="flex items-center gap-2 text-[1.2rem] mt-2"
           >
             <GoLocation size={25} />
@@ -48,21 +49,21 @@ export default function Footer() {
         </div>
         <div className=" self-start">
           <Link
-            href={`/`}
+            href={`mailto:info@hawishpk.com`}
             className="flex items-center gap-2 text-[1.2rem] mt-2"
           >
             <AiOutlineMail size={25} />
             info@hawishpk.com
           </Link>
           <Link
-            href={`/`}
+            href={`mailto:adhurim@hawishpk.com`}
             className="flex items-center gap-2 text-[1.2rem] mt-2"
           >
             <AiOutlineMail size={25} />
             adhurim@hawishpk.com
           </Link>
           <Link
-            href={`/`}
+            href={`mailto:asistenca@hawishpk.com`}
             className="flex items-center gap-2 text-[1.2rem] mt-2"
           >
             <AiOutlineMail size={25} />
@@ -70,7 +71,7 @@ export default function Footer() {
           </Link>
         </div>
       </div>
-      <p className="text-center">Copyright &copy; {year} HA.WI.ASISTANCE</p>
+      <p className="text-center">Copyright © {year} HA.WI.ASISTANCE</p>
     </div>
   );
 }

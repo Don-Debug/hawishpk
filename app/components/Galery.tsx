@@ -57,7 +57,7 @@ export default function Galery() {
                 className="px-[1.5rem] py-[0.5rem] bg-[#078D75] mb-4 w-fit rounded-md text-white font-bold md:text-[1.2rem] text-[1rem] text-center"
                 onClick={() => handleView(index)}
               >
-                View
+                Shiko
               </button>
             </div>
           ))}
@@ -80,7 +80,7 @@ export default function Galery() {
         )}
       </div>
       {selectedImageIndex !== null && (
-        <div className="fixed top-0 left-0 w-full h-full bg-neutral-600 bg-opacity-80 z-50 flex justify-center items-center">
+        <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-80 z-50 flex justify-center items-center">
           <div className="relative w-[95%] h-[90%] flex justify-center items-center py-8">
             <button
               className="absolute top-0 right-0 mr-[2rem] mt-[2rem] border border-black bg-white bg-opacity-50 px-2 py-1 rounded-md font-bold text-lg hover:text-red-600 z-40"

@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 export default function Location() {
   return (
     <div id="vendodhja" className="py-[5rem]">
@@ -5,7 +8,11 @@ export default function Location() {
         <h1 className="text-[2rem] font-bold text-center mt-[5rem]">
           Vendodhja
         </h1>
-        <div className="md:w-[80%] w-[95%] sm:aspect-[1/0.7] aspect-[1/1.2] bg-white mx-auto mt-[7rem] my-shadow mb-[11rem]"></div>
+        <div className="md:w-[80%] w-[95%] sm:aspect-[1/0.7] aspect-[1/1.2] bg-white mx-auto mt-[7rem] my-shadow mb-[11rem]">
+          <Link href={`/`}>
+          <Image src={`/`} alt="mapi" width={1000} height={1000} />
+          </Link>
+        </div>
       </div>
     </div>
   );

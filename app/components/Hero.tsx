@@ -5,7 +5,7 @@ import { FiChevronDown } from "react-icons/fi";
 
 export default function Hero() {
   return (
-    <div className="flex justify-between items-center px-[3rem] w-full h-screen hero-bg">
+    <div className="flex justify-between items-center px-[3rem] w-full h-screen  hero-bg">
       <div className=" flex flex-col">
         <h1 className="text-[1.5rem] font-bold">HA. WI.asistance</h1>
         <h1 className="text-[1.5rem] font-bold">

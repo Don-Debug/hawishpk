@@ -29,17 +29,18 @@ export default function Footer() {
             Rr. Gjergj Kastrioti Nd.72 H.4 9401 Vlorë, ALBANIA.
           </Link>
           <Link
-            href={`/`}
+            href={`https://www.google.com/maps/place/41%C2%B026'03.5%22N+19%C2%B044'04.5%22E/@41.4343056,19.7345833,17z/data=!3m1!4b1!4m4!3m3!8m2!3d41.4343056!4d19.7345833?hl=en`}
             className="flex items-center gap-2 text-[1.2rem] mt-2"
+            target="blank"
           >
             <GoLocation size={25} />
-            Rr. Gjergj Kastrioti Nd.72 H.4 9401 Vlorë, ALBANIA.
+            Nikel Fushe-Kruje, Albania
           </Link>
           <div className="flex justify-start items-center gap-6 px-5 py-8">
-            <Link href={`/`}>
+            <Link href={`https://www.facebook.com/profile.php?id=100067159663399`} target="blank">
               <BsFacebook size={30} />
             </Link>
-            <Link href={`/`}>
+            <Link href={`https://www.instagram.com/hawi.shpk/`} target="blank">
               <BsInstagram size={30} />
             </Link>
             <Link href={`/`}>

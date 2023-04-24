@@ -58,6 +58,18 @@ a {
     #078d742a
   );
 }
+.home-bg {
+   background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.534),
+      rgba(0, 0, 0, 0.541),
+      rgba(0, 0, 0, 0.527)
+    ),
+    url(../public/inerte.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: cool-bg 15s linear infinite;
+}
 
 @media (prefers-color-scheme: dark) {
   html {

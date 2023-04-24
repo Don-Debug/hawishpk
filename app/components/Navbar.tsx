@@ -9,13 +9,13 @@ export default function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
     <div className=" flex justify-between items-center md:px-[5rem] px-4 py-[1rem] my-shadow fixed top-0 left-0 w-full z-40 bg-white">
-      <div className=" flex sm:gap-[1rem] gap-2 items-center">
+      <div className=" flex sm:gap-[1rem] gap-2 items-center overflow-hidden">
         <Image
           src={logo}
           alt="img"
           width={1000}
           height={1000}
-          className=" sm:w-[4rem] w-[3rem] sm:h-[4rem] h-[3rem] object-contain pointer-events-none"
+          className=" sm:w-[4rem] w-[3rem] sm:h-[4rem] h-[3rem] object-cover scale-150 pointer-events-none"
         />
         <h1 className=" sm:text-[1.4rem] text-[1.1rem] font-bold">
           Hawi SH.P.K

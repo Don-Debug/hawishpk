@@ -37,13 +37,16 @@ export default function Footer() {
             Nikel Fushe-Kruje, Albania
           </Link>
           <div className="flex justify-start items-center gap-6 px-5 py-8">
-            <Link href={`https://www.facebook.com/profile.php?id=100067159663399`} target="blank">
+            <Link
+              href={`https://www.facebook.com/profile.php?id=100067159663399`}
+              target="blank"
+            >
               <BsFacebook size={30} />
             </Link>
             <Link href={`https://www.instagram.com/hawi.shpk/`} target="blank">
               <BsInstagram size={30} />
             </Link>
-            <Link href={`/`}>
+            <Link href={``}>
               <BsTwitter size={30} />
             </Link>
           </div>

@@ -19,13 +19,13 @@ export default function Hero() {
           Foto Galeri <FiChevronDown size={25} />
         </Link>
       </div>
-      <div>
+      <div className=" overflow-hidden">
         <Image
           src={logo}
           alt="home-img"
           width={1000}
           height={1000}
-          className="w-[15rem] h-[15rem] object-cover lg:mr-[9rem] mr-[1rem] md:flex hidden pointer-events-none"
+          className="w-[17rem] h-[17rem] object-cover lg:mr-[9rem] mr-[1rem] md:flex scale-[1.5] hidden pointer-events-none"
         />
       </div>
     </div>

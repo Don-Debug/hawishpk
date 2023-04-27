@@ -24,23 +24,26 @@ export default function Navbar() {
 
       <div className=" md:flex hidden justify-between items-center lg:gap-[4rem] gap-2rem">
         <Link
-          href={`/`}
+          href={``}
           className="text-[1.3rem] hover:bg-[#078D75] hover:text-white px-[1rem] py-[0.5rem] rounded"
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
         >
           Home
         </Link>
-        <Link
+        <a
           href={`/#rrethnesh`}
           className="text-[1.3rem] hover:bg-[#078D75] hover:text-white px-[1rem] py-[0.5rem] rounded"
         >
           Reth Nesh
-        </Link>
-        <Link
+        </a>
+        <a
           href={`/#vendodhja`}
           className="text-[1.3rem] hover:bg-[#078D75] hover:text-white px-[1rem] py-[0.5rem] rounded"
         >
           Vendodhja
-        </Link>
+        </a>
       </div>
       <div className="md:hidden flex">
         {toggle ? (
@@ -72,7 +75,7 @@ export default function Navbar() {
             >
               Home
             </Link>
-            <Link
+            <a
               href={`/#rrethnesh`}
               className="text-[1.2rem] text-slate-600 hover:bg-gray-500 w-full text-center py-4"
               onClick={() => {
@@ -80,8 +83,8 @@ export default function Navbar() {
               }}
             >
               Rreth Nesh
-            </Link>
-            <Link
+            </a>
+            <a
               href={`/#galeri`}
               className="text-[1.2rem] text-slate-600 hover:bg-gray-500 w-full text-center py-4"
               onClick={() => {
@@ -89,8 +92,8 @@ export default function Navbar() {
               }}
             >
               Galeri
-            </Link>
-            <Link
+            </a>
+            <a
               href={`/#vendodhja`}
               className="text-[1.2rem] text-slate-600 hover:bg-gray-500 w-full text-center py-4"
               onClick={() => {
@@ -98,7 +101,7 @@ export default function Navbar() {
               }}
             >
               Vendodhja
-            </Link>
+            </a>
           </div>
         </div>
       </div>

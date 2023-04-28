@@ -12,12 +12,12 @@ export default function Hero() {
           Impjante dhe makineri per inerte
         </h1>
         <h1 className="text-[1.5rem] font-bold">Pjese kembimi dhe asistence</h1>
-        <Link
+        <a
           href={`/#galeri`}
           className="sm:px-[3rem] px-6 py-[1rem] bg-[#078D75] w-fit mt-[2rem] rounded-md text-white font-bold text-[1.2rem] flex gap-2 items-center"
         >
           Foto Galeri <FiChevronDown size={25} />
-        </Link>
+        </a>
       </div>
       <div className=" overflow-hidden">
         <Image

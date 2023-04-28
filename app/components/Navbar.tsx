@@ -67,7 +67,7 @@ export default function Navbar() {
           <div className=" flex justify-center items-center flex-col gap-0 w-full px-2 py-8">
             <Link
               href={`/`}
-              className="text-[1.2rem] text-slate-600 hover:bg-gray-500 w-full text-center py-4"
+              className="text-[1.2rem] text-slate-600 hover:bg-gray-300 w-full text-center py-4"
               onClick={() => {
                 setToggle(!toggle);
                 window.scrollTo(0, 0);
@@ -77,7 +77,7 @@ export default function Navbar() {
             </Link>
             <a
               href={`/#rrethnesh`}
-              className="text-[1.2rem] text-slate-600 hover:bg-gray-500 w-full text-center py-4"
+              className="text-[1.2rem] text-slate-600 hover:bg-gray-300 w-full text-center py-4"
               onClick={() => {
                 setToggle(!toggle);
               }}
@@ -86,7 +86,7 @@ export default function Navbar() {
             </a>
             <a
               href={`/#galeri`}
-              className="text-[1.2rem] text-slate-600 hover:bg-gray-500 w-full text-center py-4"
+              className="text-[1.2rem] text-slate-600 hover:bg-gray-300 w-full text-center py-4"
               onClick={() => {
                 setToggle(!toggle);
               }}
@@ -95,7 +95,7 @@ export default function Navbar() {
             </a>
             <a
               href={`/#vendodhja`}
-              className="text-[1.2rem] text-slate-600 hover:bg-gray-500 w-full text-center py-4"
+              className="text-[1.2rem] text-slate-600 hover:bg-gray-300 w-full text-center py-4"
               onClick={() => {
                 setToggle(!toggle);
               }}

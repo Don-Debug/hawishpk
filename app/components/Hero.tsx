@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import logo from "@/public/logo.png";
 import { FiChevronDown } from "react-icons/fi";
 
@@ -15,6 +14,7 @@ export default function Hero() {
         <a
           href={`/#galeri`}
           className="sm:px-[3rem] px-6 py-[1rem] bg-[#078D75] w-fit mt-[2rem] rounded-md text-white font-bold text-[1.2rem] flex gap-2 items-center"
+          draggable="false"
         >
           Foto Galeri <FiChevronDown size={25} />
         </a>

@@ -13,13 +13,14 @@ export default function Location() {
           <Link
             target="blank"
             href={`https://www.google.com/maps/place/Ha.wi+assistance/@40.4617903,19.4832985,19z/data=!4m10!1m2!2m1!1shawi+shpk+vlore!3m6!1s0x134533b6a516fd7f:0x66b66352f000eb6e!8m2!3d40.4619741!4d19.4832028!15sCg9oYXdpIHNocGsgdmxvcmVaESIPaGF3aSBzaHBrIHZsb3JlkgERZWxlY3Ryb25pY3Nfc3RvcmXgAQA!16s%2Fg%2F11hf6vfmq0`}
+            draggable="false"
           >
             <Image
               src={map}
               alt="mapi"
               width={1000}
               height={1000}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover pointer-events-none"
             />
           </Link>
         </div>

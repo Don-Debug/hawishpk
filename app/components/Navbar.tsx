@@ -29,18 +29,21 @@ export default function Navbar() {
           onClick={() => {
             window.scrollTo(0, 0);
           }}
+          draggable="false"
         >
           Home
         </Link>
         <a
           href={`/#rrethnesh`}
           className="text-[1.3rem] hover:bg-[#078D75] hover:text-white px-[1rem] py-[0.5rem] rounded"
+          draggable="false"
         >
           Reth Nesh
         </a>
         <a
           href={`/#vendodhja`}
           className="text-[1.3rem] hover:bg-[#078D75] hover:text-white px-[1rem] py-[0.5rem] rounded"
+          draggable="false"
         >
           Vendodhja
         </a>
@@ -72,6 +75,7 @@ export default function Navbar() {
                 setToggle(!toggle);
                 window.scrollTo(0, 0);
               }}
+              draggable="false"
             >
               Home
             </Link>
@@ -81,6 +85,7 @@ export default function Navbar() {
               onClick={() => {
                 setToggle(!toggle);
               }}
+              draggable="false"
             >
               Rreth Nesh
             </a>
@@ -90,6 +95,7 @@ export default function Navbar() {
               onClick={() => {
                 setToggle(!toggle);
               }}
+              draggable="false"
             >
               Galeri
             </a>
@@ -99,6 +105,7 @@ export default function Navbar() {
               onClick={() => {
                 setToggle(!toggle);
               }}
+              draggable="false"
             >
               Vendodhja
             </a>
